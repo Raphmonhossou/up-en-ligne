@@ -1,0 +1,334 @@
+@charset "UTF-8";
+/* accueil medecine*/
+
+header
+{
+	display:inline-block;
+	border: 0px solid black ;
+	border-radius: 5px;
+	height : 10% ;
+	width: 98%;
+	background-color: blue;
+}
+header p
+{
+	display: inline-block;
+}
+.titre
+{
+	font-size: 30px;
+	color: white;
+	margin-left:5%;
+}
+.menu
+{
+	margin-left: 5%;
+	margin-top: 0%;
+	color: white;
+}
+nav
+{
+	display:inline-block;
+	border:solid 1px ;
+	background-color: red;
+	width:98%;
+}
+nav a
+{
+	display:inline-block;
+	margin-left:60px;
+	color:white;
+}
+.fondMedecine
+{
+	display: inline-block;
+	height:50%;
+	width: 100%;
+	margin-top:10%;
+}
+.fondMedecine img
+{
+	height: 500px;
+	width: 100%;
+}
+.annee
+{
+	display: inline-block;
+	margin-left: 18%;
+	width: 50%;
+	
+	
+}
+.annee  li
+{
+	display:inline-block;
+	list-style-type: none;
+	border: solid 1px;
+	border-radius:5px;
+	width:100%;
+	background-color: blue;
+	text-align: center;
+	font-size: 28px;
+}
+.annee  li a
+{
+	color: white;
+}
+.annee a:hover
+{
+	font-style: italic;
+    color: chartreuse;
+}
+.annnee a:active
+{
+	color: red;
+}
+.divers
+{
+	display:inline-block;
+	width:50%;
+	height:110px;
+	margin-left: 20%;
+	margin-top:10%;
+	background-color:blue;
+	border-radius:10px;
+}
+.divers a
+{
+	margin-left:20%;
+	margin-top:2%;
+	font-size:30px;
+	text-decoration: none;
+	border: solid 1px;
+	border-radius:5px;
+	width:50%;
+	color: white;
+}
+.divers li
+{
+	list-style-type: none;
+	
+}
+.divers a:hover
+{
+	font-style: italic;
+    color: chartreuse;
+}
+.divers a:active
+{
+	color:red;
+}
+
+footer
+{
+	display:inline-block;
+	margin-top:500px;
+	border: 1px solid black ;
+	height : 50px ;
+	width: 98%;
+	background-color: black;
+	color: white;
+}
+
+/* .............  style de "pageMedecineAnnee1, 2,3" ..................  */
+
+.teteChoixMatiereAnnee1 , .teteChoixMatiereAnnee2, .teteChoixMatiereAnnee3, .teteChoixMatiereAnnee4,
+.teteChoixMatiereAnnee5, .teteChoixMatiereAnnee6, .teteChoixMatiereAnnee7
+{
+	display:inlineblock;
+	width:100%;
+	height: 50%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.listeMatiereAnnee1, .listeMatiereAnnee2, .listeMatiereAnnee3, .listeMatiereAnnee4, .listeMatiereAnnee5, .listeMatiereAnnee6, .listeMatiereAnnee7
+{
+	display:inline-block;
+	width:50%;
+	height: 600px;
+	border: solid 1px;
+	margin-left:28%;
+	background-color: pink;
+}
+.listeMatiereAnnee2
+{
+	height: 650px;
+	background-color: yellow;
+	height: 710px;
+}
+.listeMatiereAnnee3
+{
+	height: 460px;
+	background-color: green;
+}
+
+.listeMatiereAnnee1 li , .listeMatiereAnnee2 li, .listeMatiereAnnee3 li, .listeMatiereAnnee4 li,
+.listeMatiereAnnee5 li , .listeMatiereAnnee6 li, .listeMatiereAnnee7 li
+{
+	display:inline-block;
+	list-style-type: none;
+	width:95%;
+	border: solid 1px;
+	border-radius:10px;
+	background-color: blue;
+	margin-left:1px;
+	font-size: 28px
+}
+.listeMatiereAnnee1 a, .listeMatiereAnnee2 a, .listeMatiereAnnee3 a, .listeMatiereAnnee4 a, 
+.listeMatiereAnnee5 a, .listeMatiereAnnee6 a, .listeMatiereAnnee7 a
+{
+	color:white;
+	text-decoration: none;
+}
+.listeMatiereAnnee1 a:hover, .listeMatiereAnnee2 a:hover, .listeMatiereAnnee3 a:hover, .listeMatiereAnnee4 a:hover
+.listeMatiereAnnee5 a:hover, .listeMatiereAnnee6 a:hover, .listeMatiereAnnee7 a:hover
+{
+	font-style: italic;
+	color: yellow;
+}
+.listeMatiereAnnee1 a:active, .listeMatiereAnnee2 a:active, .listeMatiereAnnee3 a:active, .listeMatiereAnnee4 a:active,
+.listeMatiereAnnee5 a:active, .listeMatiereAnnee6 a:active, .listeMatiereAnnee7 a:active
+{
+	color: red;
+}
+
+/*  ..................  style page anatomie , anglais, biochimie */
+
+.teteAnatomieAnnee1, .teteAnglaisAnnee1, .teteBiochimieAnnee1, .teteBiophysiqueAnnee1, .teteBiostatistiqueAnnee1, 
+.teteBiologieHumaineAnnee1, .teteChimieOrganiqueAnnee1, .teteMathematiqueAnnee1, .tetePhysiologieAnnee1, .tetePsychologieAnnee1
+{
+	display:inlineblock;
+	width:100%;
+	height: 50%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+.lotAnatomie, .lotAnglais, .lotBiochimie, .lotBiologieHumaine, .lotBiostatistique, 
+.lotBiophysique, .lotChimieOrganique, .lotMathematique, .lotPhysiologie, .lotPsychologie
+{
+	display:inlineblock;
+	width: 100%;
+	margin-top: 10%;
+	
+}
+.medecineAnnee1AnatomieExo1 , .medecineAnnee1AnatomieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1AnglaisExo1 , .medecineAnnee1AnglaisExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiochimieExo1 , .medecineAnnee1BiochimieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiologieHumaineExo1 , .medecineAnnee1BiologieHumaineExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiophysiqueExo1 , .medecineAnnee1BiophysiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiostatistiqueExo1 , .medecineAnnee1BiostatistiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1ChimieOrganiqueExo1 , .medecineAnnee1ChimieOrganiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1MathematiqueExo1 , .medecineAnnee1MathematiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1PhysiologieExo1 , .medecineAnnee1PhysiologieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1PsychologieExo1 , .medecineAnnee1PsychologieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+
+/* l'entete de chaque l'exercice*/
+.medecineAnnee1AnatomieExo1 h3, .medecineAnnee1AnatomieExo2 h3, .medecineAnnee1AnglaisExo1 h3, .medecineAnnee1AnglaisExo2 h3,
+.medecineAnnee1BiochimieExo1 h3, .medecineAnnee1BiochimieExo2 h3, .medecineAnnee1BiologieHumaineExo1 h3, .medecineAnnee1BiologieHumaineExo2 h3,
+.medecineAnnee1BiostatistiqueExo1 h3, .medecineAnnee1BiostatistiqueExo2 h3, .medecineAnnee1BiophysiqueExo1 h3, .medecineAnnee1BiophysiqueExo2 h3, 
+.medecineAnnee1ChimieOrganiqueExo1 h3 , .medecineAnnee1ChimieOrganiqueExo2 h3 ,.medecineAnnee1MathematiqueExo1 h3 , .medecineAnnee1MathematiqueExo2 h3 ,  
+.medecineAnnee1PhysiologieExo1 h3 , .medecineAnnee1PhysiologieExo2 h3 ,.medecineAnnee1PsychologieExo1 h3 , .medecineAnnee1PsychologieExo2 h3
+{
+	text-align: center;
+}
+  /* lien de correction*/
+.lotAnatomie .medecineAnnee1AnatomieExo1 a, .lotAnatomie .medecineAnnee1AnatomieExo2 a , /* les liens 'corection des exercice'*/
+.lotAnglais .medecineAnnee1AnglaisExo1 a, .lotAnglais .medecineAnnee1AnglaisExo2 a,
+.lotBiochimie .medecineAnnee1BiochimieExo1 a, .lotBiochimie .medecineAnnee1BiochimieExo2 a,  /* les liens 'corection des exercice'*/
+.lotBiologieHumaine .medecineAnnee1BiologieHumaineExo1 a, .lotBiologieHumaine .medecineAnnee1BiologieHumaineExo2 a,
+.lotBiophysique .medecineAnnee1BiophysiqueExo1 a, .lotBiophysique .medecineAnnee1BiophysiqueExo2 a,
+.lotBiostatistique .medecineAnnee1BiostatistiqueExo1 a, .lotBiostatistique .medecineAnnee1BiostatistiqueExo2 a,
+.lotChimieOrganique .medecineAnnee1ChimieOrganiqueExo1 a, .lotChimieOrganique .medecineAnnee1ChimieOrganiqueExo2 a,
+.lotMathematique .medecineAnnee1MathematiqueExo1 a, .lotMathematique .medecineAnnee1MathematiqueExo2 a,
+.lotPhysiologie .medecineAnnee1PhysiologieExo1 a, .lotPhysiologie .medecineAnnee1PhysiologieExo2 a,
+.lotPsychologie .medecineAnnee1PsychologieExo1 a, .lotPsychologie .medecineAnnee1PsychologieExo2 a
+
+{
+	display: inline-block;
+	margin-top: 410px;
+	margin-left:  90%;
+}
+

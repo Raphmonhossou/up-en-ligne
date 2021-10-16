@@ -1,0 +1,156 @@
+@charset "UTF-8";
+body
+{
+ 
+}
+header
+{
+	display:inline-block;
+	top: 10px;
+	border: 0px solid black ;
+	border-radius: 5px;
+	height : 100px ;
+	width: 100%;
+	background-color: blue;
+}
+.logo
+{
+	display:inline-block;
+    margin-left: 2px;
+    
+}
+.menu
+{
+	display:inline-block;
+	margin-left:1200px;
+}
+nav
+{
+	display:inline-block;
+	border:solid 1px ;
+	background-color: red;
+	width:100%;
+}
+nav a
+{
+	display:inline-block;
+	margin-left:50px;
+	color:white;
+}
+.text
+{
+	display:inline-block;
+	border: solid 1px ;
+	border-radius: 5px;
+	width: 96%;
+	height: 600px;
+	margin-left: 2%;
+	margin-top: 50px;
+	/*background-image: url("/fond1.png") 35em 0em fixed ;
+	 url("fond1.jpg") fixed , url("raph.jpg") 0em 30em fixed no-repeat ; 35em 0em repeat-y fixed*/ 
+	/*background-color: rgb(8, 22, 1020);*/
+}
+.description
+{
+	width: 95%;
+	margin-left: 5%;
+	font-size: 25px;
+	font-family:Times New Roman;
+	color: blue;
+}
+.img
+{
+	width:95%;
+	height: 90%;
+	margin-top:20%;
+}
+.choix
+{
+	display:inline-block;
+	margin-top: 100px;
+	border: 1px solid blue;
+	height: 400px;
+	width: 98%;
+}
+ .choix a:hover
+{
+font-style: italic;
+color: chartreuse;
+/*text-decoration: underline;*/
+}
+.choix a:active
+{
+    color: crimson;
+}
+ .choix a
+  {
+  font-size: 32px;
+  text-decoration: none;   /* permet de ne pas souligner le lien*/
+  display: inline-block;
+  color: darkblue ;
+  border: solid 1px black;
+  border-radius : 5px;
+  width:120px;
+  height: 60px;
+  text-align: center;
+ }
+ .choix a.iut    /*disposition de chaque ecole*/
+ {
+   margin-left: 8%;
+   margin-top: 2%;
+ }
+  .choix a.ifsio
+  {
+      margin-left: 15%;
+      margin-top: 2%;
+  }
+  .choix a.enspd
+  {
+      margin-left: 15%;
+      margin-top: 2%;
+  }
+  
+  .choix a.enatse
+  {
+      margin-left: 8%;
+      margin-top: 5%;
+  }
+  .choix a.fm
+  {
+      margin-left: 15%;
+      margin-top: 5%;
+  }
+  .choix a.fa
+  {
+      margin-left: 15%;
+      margin-top : 5%;
+  }
+  
+  .choix a.faseg
+  {
+     margin-left: 8%;
+     margin-top: 5%;
+  }
+ 
+  .choix a.flash
+  {
+      margin-top: 5%;
+      margin-left: 15%;
+  }
+  .choix a.fdsp
+  {
+      margin-left: 15%;
+      margin-top: 5%;   
+  }
+  
+
+footer
+{
+	display:inline-block;
+	margin-top:100px;
+	border: 1px solid black ;
+	height : 50px ;
+	width: 98%;
+	background-color: black;
+	color: white;
+}

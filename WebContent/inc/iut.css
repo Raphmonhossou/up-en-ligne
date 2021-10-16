@@ -1,0 +1,366 @@
+@charset "UTF-8";
+/* accueil medecine*/
+
+header
+{
+	display:inline-block;
+	border: 0px solid black ;
+	border-radius: 5px;
+	height : 10% ;
+	width: 98%;
+	background-color: blue;
+}
+header p
+{
+	display: inline-block;
+}
+.titre
+{
+	font-size: 30px;
+	color: white;
+	margin-left:5%;
+}
+.menu
+{
+	margin-left: 5%;
+	margin-top: 0%;
+	color: white;
+}
+nav
+{
+	display:inline-block;
+	border:solid 1px ;
+	background-color: red;
+	width:98%;
+}
+nav a
+{
+	display:inline-block;
+	margin-left:60px;
+	color:white;
+}
+.fondIut
+{
+	display: inline-block;
+	height:50%;
+	width: 100%;
+	margin-top:10%;
+}
+.fondIut img
+{
+	height: 500px;
+	width: 100%;
+}
+.annee, .listeFiliere
+{
+	display: inline-block;
+	margin-left: 18%;
+	width: 50%;
+	
+	
+}
+.annee  li , .listeFiliere li
+{
+	display:inline-block;
+	list-style-type: none;
+	border: solid 1px;
+	border-radius:5px;
+	width:100%;
+	background-color: blue;
+	text-align: center;
+	font-size: 28px;
+}
+.annee  li a , .listeFiliere li a
+{
+	color: white;
+}
+.annee a:hover , .listeFiliere a:hover
+{
+	font-style: italic;
+    color: chartreuse;
+}
+.annnee a:active , .listeFiliere a:active
+{
+	color: red;
+}
+.divers
+{
+	display:inline-block;
+	width:50%;
+	height:110px;
+	margin-left: 20%;
+	margin-top:10%;
+	background-color:blue;
+	border-radius:10px;
+}
+.divers a
+{
+	margin-left:20%;
+	margin-top:2%;
+	font-size:30px;
+	text-decoration: none;
+	border: solid 1px;
+	border-radius:5px;
+	width:50%;
+	color: white;
+}
+.divers li
+{
+	list-style-type: none;
+	
+}
+.divers a:hover
+{
+	font-style: italic;
+    color: chartreuse;
+}
+.divers a:active
+{
+	color:red;
+}
+
+footer
+{
+	display:inline-block;
+	margin-top:500px;
+	border: 1px solid black ;
+	height : 50px ;
+	width: 98%;
+	background-color: black;
+	color: white;
+}
+
+/* .............  style de "pageIUTAnnee1, 2,3" ..................  */
+
+.teteChoixFiliereAnnee1 , .teteChoixFiliereAnnee2, .teteChoixFiliereAnnee3,
+.teteChoixMatiereAnnee1TroncCommun,.teteChoixMatiereAnnee2TroncCommun, .teteChoixMatiereAnnee3TroncCommun,  
+.teteChoixMatiereAnnee1Ig, .teteChoixMatiereAnnee2Ig, .teteChoixMatiereAnnee3Ig,
+.teteChoixMatiereAnnee1Gb, .teteChoixMatiereAnnee2Gb, .teteChoixMatiereAnnee3Gb, 
+.teteChoixMatiereAnnee1Ge, .teteChoixMatiereAnnee2Ge, .teteChoixMatiereAnnee3Ge, 
+.teteChoixMatiereAnnee1Gc, .teteChoixMatiereAnnee2Gc, .teteChoixMatiereAnnee3Gc,
+.teteChoixMatiereAnnee1Grh, .teteChoixMatiereAnnee2Grh, .teteChoixMatiereAnnee3Grh,
+.teteChoixMatiereAnnee1Gtl .teteChoixMatiereAnnee2Gtl, .teteChoixMatiereAnnee1Gtl
+{
+	display:inlineblock;
+	width:100%;
+	height: 50%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.listeFiliereAnnee1, .listeFiliereAnnee2, .listeFiliereAnnee3,
+.listeMatiereAnnee1TroncCommun, .listeMatiereAnnee1TroncCommun,.listeMatiereAnnee1TroncCommun,
+.listeMatiereAnnee1Ig, .listeMatiereAnnee2Ig,.listeMatiereAnnee3Ig,
+.listeMatiereAnnee1Gb, .listeMatiereAnnee2Gb,.listeMatiereAnnee3Gb,
+.listeMatiereAnnee1Gc, .listeMatiereAnnee2Gc,.listeMatiereAnnee3Gc,
+.listeMatiereAnnee1Grh, .listeMatiereAnnee2Grh,.listeMatiereAnnee3Grh,
+.listeMatiereAnnee1Gtl, .listeMatiereAnnee2Gtl, .listeMatiereAnnee3Gtl
+{
+	display:inline-block;
+	width:50%;
+	height: 600px;
+	border: solid 1px;
+	margin-left:28%;
+	background-color: pink;
+}
+.listeFiliereAnnee2 , .listeMatiereAnnee2TroncCommun
+{
+	height: 650px;
+	background-color: yellow;
+	height: 710px;
+}
+.listeFiliereAnnee3 , .listeMatiereAnnee3TroncCommun
+{
+	height: 460px;
+	background-color: green;
+}
+
+.listeFiliereAnnee1 li , .listeFiliereAnnee2 li, .listeFiliereAnnee3 li ,
+.listeMatiereAnnee1TroncCommun li, .listeMatiereAnnee2TroncCommun li, .listeMatiereAnnee3TroncCommun li,
+.listeMatiereAnnee1Ig li, .listeMatiereAnnee2Ig li, .listeMatiereAnnee3Ig li,
+.listeMatiereAnnee1Gb li, .listeMatiereAnnee2Gb li, .listeMatiereAnnee3Gb li, 
+.listeMatiereAnnee1Gc li, .listeMatiereAnnee2Gc li, .listeMatiereAnnee3Gc li, 
+.listeMatiereAnnee1Grh li, .listeMatiereAnnee2Grh li, .listeMatiereAnnee3Grh li, 
+.listeMatiereAnnee1Gtl li, .listeMatiereAnnee2Gtl li, .listeMatiereAnnee3Gtl li
+{
+	display:inline-block;
+	list-style-type: none;
+	width:95%;
+	border: solid 1px;
+	border-radius:10px;
+	background-color: blue;
+	margin-left:1px;
+	font-size: 28px
+}
+.listeFiliereAnnee1 a, .listeFiliereAnnee2 a, .listeFiliereAnnee3 a ,
+.listeMatiereAnnee1TroncCommun a, .listeMatiereAnnee2TroncCommun a, .listeMatiereAnnee3TroncCommun a,
+.listeMatiereAnnee1Ig a, .listeMatiereAnnee2Ig a, .listeMatiereAnnee3Ig a,
+.listeMatiereAnnee1Gb a, .listeMatiereAnnee2Gb a, .listeMatiereAnnee3Gb a, 
+.listeMatiereAnnee1Gc a, .listeMatiereAnnee2Gc a, .listeMatiereAnnee3Gc a, 
+.listeMatiereAnnee1Grh a, .listeMatiereAnnee2Grh a, .listeMatiereAnnee3Grh a, 
+.listeMatiereAnnee1Gtl a, .listeMatiereAnnee2Gtl a, .listeMatiereAnnee3Gtl a
+{
+	color:white;
+	text-decoration: none;
+}
+.listeFiliereAnnee1 a:hover, .listeFiliereAnnee2 a:hover, .listeFiliereAnnee3 a:hover,
+.listeMatiereAnnee1TroncCommun a:hover, .listeMatiereAnnee2TroncCommun a:hover, .listeMatiereAnnee3TroncCommun a:hover,
+.listeMatiereAnnee1Ig a:hover, .listeMatiereAnnee2Ig a:hover, .listeMatiereAnnee3Ig a:hover,
+.listeMatiereAnnee1Gb a:hover, .listeMatiereAnnee2Gb a:hover, .listeMatiereAnnee3Gb a:hover, 
+.listeMatiereAnnee1Gc a:hover, .listeMatiereAnnee2Gc a:hover, .listeMatiereAnnee3Gc a:hover, 
+.listeMatiereAnnee1Grh a:hover, .listeMatiereAnnee2Grh a:hover, .listeMatiereAnnee3Grh a:hover, 
+.listeMatiereAnnee1Gtl a:hover, .listeMatiereAnnee2Gtl a:hover, .listeMatiereAnnee3Gtl a:hover
+{
+	font-style: italic;
+	color: yellow;
+}
+.listeFiliereAnnee1 a:active, .listeFiliereAnnee2 a:active, .listeFiliereAnnee3 a:active,
+.listeMatiereAnnee1TroncCommun a:active, .listeMatiereAnnee2TroncCommun a:active, .listeMatiereAnnee3TroncCommun a:active,
+.listeMatiereAnnee1Ig a:active, .listeMatiereAnnee2Ig a:active, .listeMatiereAnnee3Ig a:active,
+.listeMatiereAnnee1Gb a:active, .listeMatiereAnnee2Gb a:active, .listeMatiereAnnee3Gb a:active, 
+.listeMatiereAnnee1Gc a:active, .listeMatiereAnnee2Gc a:active, .listeMatiereAnnee3Gc a:active, 
+.listeMatiereAnnee1Grh a:active, .listeMatiereAnnee2Grh a:active, .listeMatiereAnnee3Grh a:active, 
+.listeMatiereAnnee1Gtl a:active, .listeMatiereAnnee2Gtl a:active, .listeMatiereAnnee3Gtl a:active
+{
+	color: red;
+}
+
+/*  ..................  style page contenant les exo des differentes matieres.. */
+
+.teteAnatomieAnnee1, .teteAnglaisAnnee1, .teteBiochimieAnnee1, .teteBiophysiqueAnnee1, .teteBiostatistiqueAnnee1, 
+.teteBiologieHumaineAnnee1, .teteChimieOrganiqueAnnee1, .teteMathematiqueAnnee1, .tetePhysiologieAnnee1, .tetePsychologieAnnee1
+{
+	display:inlineblock;
+	width:100%;
+	height: 50%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+.lotAnatomie, .lotAnglais, .lotBiochimie, .lotBiologieHumaine, .lotBiostatistique, 
+.lotBiophysique, .lotChimieOrganique, .lotMathematique, .lotPhysiologie, .lotPsychologie
+{
+	display:inlineblock;
+	width: 100%;
+	margin-top: 10%;
+	
+}
+.medecineAnnee1AnatomieExo1 , .medecineAnnee1AnatomieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1AnglaisExo1 , .medecineAnnee1AnglaisExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiochimieExo1 , .medecineAnnee1BiochimieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiologieHumaineExo1 , .medecineAnnee1BiologieHumaineExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiophysiqueExo1 , .medecineAnnee1BiophysiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1BiostatistiqueExo1 , .medecineAnnee1BiostatistiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1ChimieOrganiqueExo1 , .medecineAnnee1ChimieOrganiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1MathematiqueExo1 , .medecineAnnee1MathematiqueExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1PhysiologieExo1 , .medecineAnnee1PhysiologieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+.medecineAnnee1PsychologieExo1 , .medecineAnnee1PsychologieExo2              /*   cadre des exercices*/
+{
+	display: inline-block;
+	width: 80%;
+	height: 500px;
+	border: solid 1px;
+	margin-left: 10%;
+	margin-top:5;
+}
+
+/* l'entete de chaque l'exercice*/
+.medecineAnnee1AnatomieExo1 h3, .medecineAnnee1AnatomieExo2 h3, .medecineAnnee1AnglaisExo1 h3, .medecineAnnee1AnglaisExo2 h3,
+.medecineAnnee1BiochimieExo1 h3, .medecineAnnee1BiochimieExo2 h3, .medecineAnnee1BiologieHumaineExo1 h3, .medecineAnnee1BiologieHumaineExo2 h3,
+.medecineAnnee1BiostatistiqueExo1 h3, .medecineAnnee1BiostatistiqueExo2 h3, .medecineAnnee1BiophysiqueExo1 h3, .medecineAnnee1BiophysiqueExo2 h3, 
+.medecineAnnee1ChimieOrganiqueExo1 h3 , .medecineAnnee1ChimieOrganiqueExo2 h3 ,.medecineAnnee1MathematiqueExo1 h3 , .medecineAnnee1MathematiqueExo2 h3 ,  
+.medecineAnnee1PhysiologieExo1 h3 , .medecineAnnee1PhysiologieExo2 h3 ,.medecineAnnee1PsychologieExo1 h3 , .medecineAnnee1PsychologieExo2 h3
+{
+	text-align: center;
+}
+  /* lien de correction*/
+.lotAnatomie .medecineAnnee1AnatomieExo1 a, .lotAnatomie .medecineAnnee1AnatomieExo2 a , /* les liens 'corection des exercice'*/
+.lotAnglais .medecineAnnee1AnglaisExo1 a, .lotAnglais .medecineAnnee1AnglaisExo2 a,
+.lotBiochimie .medecineAnnee1BiochimieExo1 a, .lotBiochimie .medecineAnnee1BiochimieExo2 a,  /* les liens 'corection des exercice'*/
+.lotBiologieHumaine .medecineAnnee1BiologieHumaineExo1 a, .lotBiologieHumaine .medecineAnnee1BiologieHumaineExo2 a,
+.lotBiophysique .medecineAnnee1BiophysiqueExo1 a, .lotBiophysique .medecineAnnee1BiophysiqueExo2 a,
+.lotBiostatistique .medecineAnnee1BiostatistiqueExo1 a, .lotBiostatistique .medecineAnnee1BiostatistiqueExo2 a,
+.lotChimieOrganique .medecineAnnee1ChimieOrganiqueExo1 a, .lotChimieOrganique .medecineAnnee1ChimieOrganiqueExo2 a,
+.lotMathematique .medecineAnnee1MathematiqueExo1 a, .lotMathematique .medecineAnnee1MathematiqueExo2 a,
+.lotPhysiologie .medecineAnnee1PhysiologieExo1 a, .lotPhysiologie .medecineAnnee1PhysiologieExo2 a,
+.lotPsychologie .medecineAnnee1PsychologieExo1 a, .lotPsychologie .medecineAnnee1PsychologieExo2 a
+
+{
+	display: inline-block;
+	margin-top: 410px;
+	margin-left:  90%;
+}
+
