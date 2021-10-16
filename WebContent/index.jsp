@@ -33,7 +33,7 @@
     <a href="flash" class="flash">FLASH</a>
 </div>
  <footer class = "pied">
-<p class = copyright> copyright 2021<p/>
+<p class = copyright> copyright 2021 <br/> Tout droits reservés<p/>
  </footer>
 </section>
 </body>
